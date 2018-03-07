@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustonPopUpApp</string>
+    <string name="professional_secure_medical"><![CDATA[Professional & Secure Medical]]></string>
+    <string name="cannabis_delivery_service">Cannabis Delivery Service</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+</resources>

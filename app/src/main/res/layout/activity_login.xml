@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/professional_secure_medical"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cannabis_delivery_service"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+    <EditText
+        android:id="@+id/Email"
+        android:hint="@string/e_mail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:hint="@string/password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="forgout password? >>"
+            android:textColor="@color/bluelight"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_gravity="right"
+            android:layout_marginLeft="45dp"
+            android:onClick="login"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a member?"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="17sp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnRegiter"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:text="Register Now"
+        android:background="@drawable/buttoneaze"
+        android:layout_gravity="center"
+        android:paddingTop="12dp"
+        android:textSize="18sp"
+        android:onClick="btnRegister"/>
+
+</LinearLayout>
